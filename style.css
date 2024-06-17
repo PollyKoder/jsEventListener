@@ -1,0 +1,10 @@
+* {
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.bodyLight {
+    background-color: #adc9ad;
+    display: flex;
+    flex-direction: column;
+}
