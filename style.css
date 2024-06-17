@@ -4,7 +4,8 @@
 }
 
 .bodyLight {
-    background-color: #adc9ad;
+    background-color: #f0fff0;
+    background-image: url(/img/redSplash1.jpg);
     display: flex;
     flex-direction: column;
 }
