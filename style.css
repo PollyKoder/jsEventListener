@@ -8,27 +8,41 @@
 .denial {
     background-color: #e6eae6;
     background-image: url(/img/denial.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 40px;
+    /* width: 100vw; */
+}
+
+.main {
+    height: 80%;
+    margin-bottom: 580px;
 }
 
 .toggleTheme {
-    margin-top: 60px;
+    margin-top: 300px;
+    padding-top: 12px;
     width: 60px;
     height: 30px;
+    background-color: #75797b;
+    color: honeydew;
     font-size: large;
     border: 4px groove silver;
     border-radius: 8px;
-    cursor:help;     
+    cursor:help;  
+       
 }
 
 .toggleTheme:hover {
-    width: 78px;
-    height: 44px;
+    width: 70px;
+    height: 38px;
     transition: 0.5s;
+    font-size: larger;
+    font-weight: 600;
 }
 
 .header {
@@ -42,10 +56,19 @@
 }
 
 .bargaining {
-    background-image: url(/img/grennSplash.jpg);
-    position: absolute;
+    background-image: url(/img/bargaining1.png);
+    background-repeat: no-repeat;
 }
 
 .depression {
-    background-image: url(/img/waterSplash.jpg);
+    background-image: url(/img/depression1.png);
 }
+
+.acceptance {
+
+}
+
+.footerText {
+    color: #5b697617;
+}
+
