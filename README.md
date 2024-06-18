@@ -1,6 +1,6 @@
 # needed to collect keyCodes for the keys I want activate in JS
 
-wasd coeds:
+wasd codes:
 
 w = 87
 a = 65 (e.keyCode65)

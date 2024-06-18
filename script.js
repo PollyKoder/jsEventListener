@@ -9,6 +9,8 @@ function denialAnger() {
 denialAnger();
 console.log(grief);
 
+
+let whatStage = 0;
 function anger() {
     grief.addEventListener("keydown", )
 }
