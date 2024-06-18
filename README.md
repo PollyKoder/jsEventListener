@@ -1,4 +1,4 @@
-
+# needed to collect keyCodes for the keys I want activate in JS
 
 wasd coeds:
 

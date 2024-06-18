@@ -10,5 +10,5 @@ denialAnger();
 console.log(grief);
 
 function anger() {
-    grief.addEventListener("keydown", w)
+    grief.addEventListener("keydown", )
 }

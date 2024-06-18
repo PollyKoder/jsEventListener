@@ -20,7 +20,7 @@
 
 .main {
     height: 80%;
-    margin-bottom: 580px;
+    margin-bottom: 333px;
 }
 
 .toggleTheme {
@@ -51,7 +51,7 @@
 }
 
 .anger {
-    background-image: url(/img/redSplash1.jpg);
+    background-image: url(/img/anger1.jpg);
     background-repeat: no-repeat;
 }
 
@@ -62,10 +62,17 @@
 
 .depression {
     background-image: url(/img/depression1.png);
+    background-repeat: no-repeat;
 }
 
-.acceptance {
+.acceptanceQ {
+    background-image: url(/img/spaceSplash2.jpg);
+    background-repeat: no-repeat;
+}
 
+.acceptanceUnlock{
+    background-image: url(/img/spaceSplash.jpg);
+    background-repeat: no-repeat;
 }
 
 .footerText {
