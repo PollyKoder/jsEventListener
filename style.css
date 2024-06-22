@@ -11,6 +11,7 @@
     justify-content: center;
     text-align: center;
     row-gap: 40px;
+    text-shadow: 1px 1px 10px honeydew;
 }
 
 .task {
@@ -24,6 +25,8 @@
     margin-top: -4px;
     border: 0px solid none;
     border-radius: 20px;
+    box-shadow: 1px 1px 8px honeydew;
+    cursor: pointer;
 }
 
 .denial {
@@ -76,9 +79,37 @@
     background-repeat: no-repeat;
 }
 
+.angerTwo {
+    display: none;
+    margin-top: 300px;
+    padding-top: 12px;
+    width: 60px;
+    height: 30px;
+    background-color: #75797b;
+    color: honeydew;
+    font-size: large;
+    border: 4px groove silver;
+    border-radius: 8px;
+    cursor:help;  
+}
+
 .bargaining {
     background-image: url(/img/bargaining1.png);
     background-repeat: no-repeat;
+}
+
+.bargainingTwo {
+    display: none;
+    margin-top: 300px;
+    padding-top: 12px;
+    width: 60px;
+    height: 30px;
+    background-color: #75797b;
+    color: honeydew;
+    font-size: large;
+    border: 4px groove silver;
+    border-radius: 8px;
+    cursor:help; 
 }
 
 .depression {
@@ -86,9 +117,36 @@
     background-repeat: no-repeat;
 }
 
+.depressionTwo {
+    display: none;
+    margin-top: 300px;
+    padding-top: 12px;
+    width: 60px;
+    height: 30px;
+    background-color: #75797b;
+    color: honeydew;
+    font-size: large;
+    border: 4px groove silver;
+    border-radius: 8px;
+    cursor:help; 
+}
+
 .acceptanceQ {
     background-image: url(/img/spaceSplash2.jpg);
     background-repeat: no-repeat;
+}
+
+.acceptanceQTwo {
+    margin-top: 300px;
+    padding-top: 12px;
+    width: 60px;
+    height: 30px;
+    background-color: #75797b;
+    color: honeydew;
+    font-size: large;
+    border: 4px groove silver;
+    border-radius: 8px;
+    cursor:help; 
 }
 
 .acceptanceUnlock{
