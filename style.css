@@ -154,6 +154,19 @@
     cursor:help; 
 }
 
+.acceptanceQ .toggleTheme {
+    margin-top: 300px;
+    padding-top: 12px;
+    width: 200px;
+    height: 40px;
+    background-color: #75797b;
+    color: honeydew;
+    font-size: large;
+    border: 4px groove silver;
+    border-radius: 8px;
+    cursor:help; 
+}
+
 .acceptanceUnlock{
     background-image: url(/img/spaceSplash.jpg);
     background-repeat: no-repeat;

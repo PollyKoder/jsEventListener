@@ -17,35 +17,35 @@ function whatStage(){
     const page = document.querySelector("#bodyId");
     document.body.addEventListener("keyup", (ev) => {
         if (ev.key == "w") {
-            page.classList.toggle("anger")
+            page.classList.add("anger")
             page.classList.remove("denial")
             page.classList.remove("bargaining")
             page.classList.remove("depression")
             page.classList.remove("acceptanceQ")
         }
         if (ev.key == "a") {
-            page.classList.toggle("bargaining")
+            page.classList.add("bargaining")
             page.classList.remove("denial")
             page.classList.remove("anger")
             page.classList.remove("depression")
             page.classList.remove("acceptanceQ")
         }
         if (ev.key == "s") {
-            page.classList.toggle("depression")
+            page.classList.add("depression")
             page.classList.remove("denial")
             page.classList.remove("anger")
             page.classList.remove("bargaining")
             page.classList.remove("acceptanceQ")
         }
         if (ev.key == "d") {
-            page.classList.toggle("acceptanceQ")
+            page.classList.add("acceptanceQ")
             page.classList.remove("denial")
             page.classList.remove("anger")
             page.classList.remove("bargaining")
             page.classList.remove("depression")
         }
         whatLetter(page);
-        //Make "R" or "Esc" button tied to the denial class, to have the user return to the first stage?
+        //Make "R" or "Esc" button tied to the denial class, to have the user return to the first stage? only have it appear acceptanceA?
     });
 };
 
