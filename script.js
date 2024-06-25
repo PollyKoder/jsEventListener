@@ -18,26 +18,46 @@ function whatStage(){
     document.body.addEventListener("keyup", (ev) => {
         if (ev.key == "w") {
             page.classList.toggle("anger")
+            page.classList.remove("denial")
+            page.classList.remove("bargaining")
+            page.classList.remove("depression")
+            page.classList.remove("acceptanceQ")
         }
         if (ev.key == "a") {
             page.classList.toggle("bargaining")
+            page.classList.remove("denial")
+            page.classList.remove("anger")
+            page.classList.remove("depression")
+            page.classList.remove("acceptanceQ")
         }
         if (ev.key == "s") {
             page.classList.toggle("depression")
+            page.classList.remove("denial")
+            page.classList.remove("anger")
+            page.classList.remove("bargaining")
+            page.classList.remove("acceptanceQ")
         }
         if (ev.key == "d") {
             page.classList.toggle("acceptanceQ")
+            page.classList.remove("denial")
+            page.classList.remove("anger")
+            page.classList.remove("bargaining")
+            page.classList.remove("depression")
         }
         whatLetter(page);
+        //Make "R" or "Esc" button tied to the denial class, to have the user return to the first stage?
     });
 };
 
 function whatLetter(page) {
-    if (document.body.classList.contains("anger")) {
+    if (page.classList.contains("anger")) {
         grief.innerHTML = "A";
-    }
-    if (page.classList.contains("bargaining")) {
+    } else if (page.classList.contains("bargaining")) {
         grief.innerHTML = "S";
+    } else if (page.classList.contains("depression")) {
+        grief.innerHTML = "D";
+    } else if (page.classList.contains("acceptanceQ")) {
+        grief.innerHTML = "What game am I?"
     }
 }
 
