@@ -158,7 +158,7 @@
     margin-top: 300px;
     padding-top: 12px;
     width: 200px;
-    height: 40px;
+    height: 35px;
     background-color: #75797b;
     color: honeydew;
     font-size: large;
@@ -166,6 +166,8 @@
     border-radius: 8px;
     cursor:help; 
 }
+
+/* Do I add another class item here to make the input fiel for text or do I generate this in JS? */
 
 .acceptanceUnlock{
     background-image: url(/img/spaceSplash.jpg);
