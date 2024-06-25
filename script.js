@@ -33,7 +33,7 @@ function whatStage(){
 };
 
 function whatLetter(page) {
-    if (page.classList.contains("anger")) {
+    if (document.body.classList.contains("anger")) {
         grief.innerHTML("A");
     }
     if (page.classList.contains("bargaining")) {
