@@ -60,7 +60,7 @@ function whatLetter(page) {
         grief.innerHTML = "What game am I?";
         const newInput = document.createElement("input");
         newInput.classList.add("inputStyle");
-        main.classList.appendChild(newInput);
+        page.appendChild(newInput);
     }
 }
 

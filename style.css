@@ -181,6 +181,7 @@
     font-size: medium;
     border: 1px solid rgb(207, 207, 207);
     border-radius: 20px;
+    margin-top: -180px;
 }
 .acceptanceUnlock{
     background-image: url(/img/spaceSplash.jpg);
