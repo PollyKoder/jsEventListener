@@ -55,6 +55,7 @@
 .main {
     height: 80%;
     margin-bottom: 333px;
+    gap: 40px;
 }
 
 .toggleTheme {
@@ -172,8 +173,15 @@
     cursor:help; 
 }
 
-/* Do I add another class item here to make the input fiel for text or do I generate this in JS? */
-
+/* Do I add another class item here to make the input field for text or do I generate this in JS? both?*/
+.inputStyle {
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    font-size: medium;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 20px;
+}
 .acceptanceUnlock{
     background-image: url(/img/spaceSplash.jpg);
     background-repeat: no-repeat;
