@@ -28,6 +28,7 @@ function whatStage(){
         if (ev.key == "d") {
             page.classList.toggle("acceptanceQ")
         }
+        whatLetter();
     });
 };
 
