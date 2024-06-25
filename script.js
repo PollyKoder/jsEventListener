@@ -57,7 +57,8 @@ function whatLetter(page) {
     } else if (page.classList.contains("depression")) {
         grief.innerHTML = "D";
     } else if (page.classList.contains("acceptanceQ")) {
-        grief.innerHTML = "What game am I?"
+        grief.innerHTML = "What game am I?";
+        document.createElement = "input";
     }
 }
 
