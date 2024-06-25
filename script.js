@@ -28,11 +28,11 @@ function whatStage(){
         if (ev.key == "d") {
             page.classList.toggle("acceptanceQ")
         }
-        whatLetter();
+        whatLetter(page);
     });
 };
 
-function whatLetter() {
+function whatLetter(page) {
     if (page.classList.contains("anger")) {
         grief.innerHTML("A");
     }
