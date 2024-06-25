@@ -59,7 +59,7 @@ function whatLetter(page) {
     } else if (page.classList.contains("acceptanceQ")) {
         grief.innerHTML = "What game am I?";
         const newInput = document.createElement("input");
-        acceptanceQ.appendChild(newInput);
+        page.appendChild(newInput);
     }
 }
 
