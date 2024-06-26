@@ -58,10 +58,10 @@ function whatLetter(page) {
         grief.innerHTML = "D";
     } else if (page.classList.contains("acceptanceQ")) {
         grief.innerHTML = "What game am I?";
-        //NOPE!! Try again...
-        const newInput = document.createElement("input");
-        newInput.classList.add("inputStyle");
-        page.appendChild(newInput);
+        //NOPE!! Try again... Fix it with html, hide in css and unhide with js?
+        //const newInput = document.createElement("input");
+        //newInput.classList.add("inputStyle");
+        //page.appendChild(newInput);
     }
 }
 
