@@ -174,7 +174,8 @@
 }
 
 /* Do I add another class item here to make the input field for text or do I generate this in JS? both?*/
-.inputStyle {
+.unlockInput {
+    display: hidden;
     width: 150px;
     height: 30px;
     padding: 5px;
