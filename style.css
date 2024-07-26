@@ -5,26 +5,63 @@
     font-family: "Montserrat", sans-serif;
 }
 
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    row-gap: 40px;
+    text-shadow: 1px 1px 10px honeydew;
+}
+
+.task {
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.smallLogo {
+    width: 40px;
+    margin-top: -4px;
+    border: 0px solid none;
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px honeydew;
+    cursor: pointer;
+}
+
 .denial {
     background-color: #e6eae6;
     background-image: url(/img/denial.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    /* width: 100vw; */
+}
+
+/*Additonal css to make the code dryer*/
+.imgPose {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*needed extra css for body so that the positioning of items would not move.*/
+.body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
     text-align: center;
     padding: 40px;
-    /* width: 100vw; */
+    background-attachment: fixed;
 }
 
 .main {
     height: 80%;
-    margin-bottom: 333px;
+    margin-bottom: 200px;
+    gap: 40px;
 }
 
 .toggleTheme {
-    margin-top: 300px;
+    margin-top: 200px;
     padding-top: 12px;
     width: 60px;
     height: 30px;
@@ -34,7 +71,8 @@
     border: 4px groove silver;
     border-radius: 8px;
     cursor:help;  
-       
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .toggleTheme:hover {
@@ -55,9 +93,37 @@
     background-repeat: no-repeat;
 }
 
+.angerTwo {
+    display: none;
+    /* margin-top: 300px; */
+    padding-top: 12px;
+    width: 60px;
+    height: 30px;
+    background-color: #75797b;
+    color: honeydew;
+    font-size: large;
+    border: 4px groove silver;
+    border-radius: 8px;
+    cursor:help;  
+}
+
 .bargaining {
     background-image: url(/img/bargaining1.png);
     background-repeat: no-repeat;
+}
+
+.bargainingTwo {
+    display: none;
+    /* margin-top: 300px; */
+    padding-top: 12px;
+    width: 60px;
+    height: 30px;
+    background-color: #75797b;
+    color: honeydew;
+    font-size: large;
+    border: 4px groove silver;
+    border-radius: 8px;
+    cursor:help; 
 }
 
 .depression {
@@ -65,17 +131,84 @@
     background-repeat: no-repeat;
 }
 
+.depressionTwo {
+    display: none;
+    /* margin-top: 300px; */
+    padding-top: 12px;
+    width: 60px;
+    height: 30px;
+    background-color: #75797b;
+    color: honeydew;
+    font-size: large;
+    border: 4px groove silver;
+    border-radius: 8px;
+    cursor:help; 
+}
+
 .acceptanceQ {
     background-image: url(/img/spaceSplash2.jpg);
     background-repeat: no-repeat;
 }
 
+.acceptanceQTwo {
+    /* margin-top: 300px;
+    padding-top: 12px; */
+    width: 60px;
+    height: 30px;
+    background-color: #75797b;
+    color: honeydew;
+    font-size: large;
+    border: 4px groove silver;
+    border-radius: 8px;
+    cursor:help; 
+}
+
+.acceptanceQ .toggleTheme {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    padding-top: 12px;
+    width: 200px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #75797b;
+    color: honeydew;
+    font-size: large;
+    border: 4px groove silver;
+    border-radius: 8px;
+    cursor:help; 
+}
+
+
+
+/* Do I add another class item here to make the input field for text or do I generate this in JS? both?*/
+.unlockInput {
+    display: hidden;
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    font-size: medium;
+    /*border: 1px solid rgb(207, 207, 207);*/
+    border-radius: 20px;
+    margin-top: -180px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 .acceptanceUnlock{
     background-image: url(/img/spaceSplash.jpg);
     background-repeat: no-repeat;
 }
 
+/*Bjørnar support; se om dette fungerer til å låse input feltet til korrekt class*/
+body input {
+    visibility: hidden;
+}
+.acceptanceQ input {
+    visibility: visible !important;
+}
+/*Fix js, slik at input ikkje reagerer med keydown functions*/
+
 .footerText {
     color: #5b697600;
 } 
-
