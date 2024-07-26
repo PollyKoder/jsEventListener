@@ -1,4 +1,4 @@
-const page = document.getElementById("bodyId");
+//const page = document.getElementById("bodyId");
 const grief = document.getElementById("stages");
 let qBlock = 0;
 
