@@ -74,20 +74,24 @@ typeField.addEventListener("change", (e) => {
   let attemptPassword = typeField.value.toLowerCase();
   if (acceptPassword.startsWith(attemptPassword)) {
     typeField.style.border = "2px solid green";
+    setTimeout(() => {
+        typeField.style.background = "green"
+    }, 50)
   } else {
     typeField.style.border = "2px solid red";
+    let flashDuration = 150;
     setTimeout(() => {
-        typeField.style.background = "red"
-    }, 150)
-    setTimeout(() => {
-        typeField.style.background = "white"
-    }, 300)
-    setTimeout(() => {
-        typeField.style.background = "red"
-    }, 450)
+        typeField.style.background = "#db5e5e"
+    }, 1*flashDuration)
     setTimeout(() => {
         typeField.style.background = "white"
-    }, 600)
+    }, 2*flashDuration)
+    setTimeout(() => {
+        typeField.style.background = "#db5e5e"
+    }, 3*flashDuration)
+    setTimeout(() => {
+        typeField.style.background = "white"
+    }, 4*flashDuration)
   }
   //console.log(attemptPassword);
 });
