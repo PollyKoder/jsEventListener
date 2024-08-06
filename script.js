@@ -76,6 +76,18 @@ typeField.addEventListener("change", (e) => {
     typeField.style.border = "2px solid green";
   } else {
     typeField.style.border = "2px solid red";
+    setTimeout(() => {
+        typeField.style.background = "red"
+    }, 150)
+    setTimeout(() => {
+        typeField.style.background = "white"
+    }, 300)
+    setTimeout(() => {
+        typeField.style.background = "red"
+    }, 450)
+    setTimeout(() => {
+        typeField.style.background = "white"
+    }, 600)
   }
   //console.log(attemptPassword);
 });
